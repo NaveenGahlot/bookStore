@@ -1,0 +1,18 @@
+import React from 'react'
+import Navebar from '../components/Navbar'
+import Banner from '../components/Banner'
+import Freebook from '../components/Freebook'
+import Footer from '../components/Footer'
+
+export default function Home() {
+return (
+    <>
+        <div>
+            <Navebar />
+            <Banner />
+            <Freebook />
+            <Footer />
+        </div>
+    </>
+)
+}
